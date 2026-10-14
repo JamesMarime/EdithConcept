@@ -1,0 +1,1 @@
+const header=document.querySelector('.nav');addEventListener('scroll',()=>header.classList.toggle('scrolled',scrollY>40));const menu=document.querySelector('.menu'),nav=document.querySelector('nav');menu.onclick=()=>nav.classList.toggle('open');document.querySelectorAll('nav a').forEach(a=>a.onclick=()=>nav.classList.remove('open'));
